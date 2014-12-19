@@ -1,0 +1,28 @@
+{
+  "name": "game-keep",
+  "description": "Persistence and basic controllers for game servers",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "istanbul check-coverage && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Amit Portnoy <amit.portnoy@gmail.com>",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "istanbul": "^0.3.2",
+    "jshint": "^2.5.6",
+    "jscs": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amitport/game-keep.git"
+  }
+}
