@@ -1,0 +1,8 @@
+{
+	"mongo": {
+		"uri": "mongodb://localhost/<YOU APP DB NAME>"
+	},
+	"auth": {
+		"tokenSecret": "<TOKEN SECRET>"
+	}
+}

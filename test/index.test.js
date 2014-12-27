@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 
-var mongoose = require('mongoose');
+var mongoose = module.parent.mongoose;//require('mongoose');
 var mockgoose = require('mockgoose');
 mockgoose(mongoose);
 
@@ -13,7 +13,7 @@ describe('game sessions API', function() {
 	var gameSessionId;
 
 	before(function() {
-		GameSession = require('../lib/gameSession');
+		GameSession = require('../lib/models/GameSession');
 		gameSessionTypeId = mongoose.Types.ObjectId();
 	});
 

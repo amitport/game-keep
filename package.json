@@ -2,9 +2,6 @@
   "name": "game-keep",
   "description": "Persistence and basic controllers for game servers",
   "version": "0.0.0",
-  "dependencies": {
-    "mongoose": "^3.8.21"
-  },
   "scripts": {
     "lint": "jshint .",
     "checkStyle": "jscs .",
@@ -27,5 +24,12 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:amitport/game-keep.git"
+  },
+  "dependencies": {
+    "config": "^1.9.0",
+    "jwt-simple": "^0.2.0",
+    "moment": "^2.8.4",
+    "mongoose": "^3.8.21",
+    "mongoose-validators": "^0.1.0"
   }
 }
