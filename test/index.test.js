@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 
-var mongoose = module.parent.mongoose;//require('mongoose');
+var mongoose = require('mongoose');
 var mockgoose = require('mockgoose');
 mockgoose(mongoose);
 
