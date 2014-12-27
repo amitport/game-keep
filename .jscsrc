@@ -1,0 +1,14 @@
+{
+	"preset": "grunt",
+	"excludeFiles": [
+		"**/node_modules/**",
+		"coverage",
+		"data"
+	],
+	"disallowEmptyBlocks": true,
+	"requireCapitalizedConstructors": true,
+	"disallowSpaceBeforePostfixUnaryOperators": true,
+	"disallowKeywordsOnNewLine": ["else"],
+	"validateIndentation": "\t",
+	"validateLineBreaks": "LF"
+}
