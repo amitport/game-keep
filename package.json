@@ -1,7 +1,7 @@
 {
   "name": "game-keep",
   "description": "Persistence and basic controllers for game servers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "lint": "jshint .",
     "checkStyle": "jscs .",
