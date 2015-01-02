@@ -10,5 +10,6 @@
 	"disallowSpaceBeforePostfixUnaryOperators": true,
 	"disallowKeywordsOnNewLine": ["else"],
 	"validateIndentation": "\t",
-	"validateLineBreaks": "LF"
+	"validateLineBreaks": "LF",
+	"disallowMixedSpacesAndTabs": "smart"
 }
