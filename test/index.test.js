@@ -47,5 +47,3 @@ describe('game sessions API', function() {
 
 //TODO game type tests
 require('../lib/models/GameType');
-//TODO user tests
-require('../lib/models/User');

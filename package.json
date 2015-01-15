@@ -7,7 +7,7 @@
     "checkStyle": "jscs .",
     "pretest": "npm run-script lint && npm run-script checkStyle",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- test",
-    "posttest": "istanbul check-coverage && rm -rf coverage"
+    "posttest": "istanbul check-coverage"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -24,11 +24,14 @@
     "type": "git",
     "url": "git@github.com:amitport/game-keep.git"
   },
-  "dependencies": {
-    "config": "^1.9.0",
-    "jwt-simple": "^0.2.0",
-    "moment": "^2.8.4",
-    "mongoose": "^3.8.21",
-    "mongoose-validators": "^0.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/amitport/game-keep/issues"
+  },
+  "peerDependencies": {
+    "mongoose": "^3.8.21"
+  },
+  "dependencies": {},
+  "keywords": [
+    "game server"
+  ]
 }
