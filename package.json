@@ -1,37 +1,38 @@
 {
-  "name": "game-keep",
-  "description": "Persistence and basic controllers for game servers",
-  "version": "0.0.1",
-  "scripts": {
-    "lint": "jshint .",
-    "checkStyle": "jscs .",
-    "pretest": "npm run-script lint && npm run-script checkStyle",
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- test",
-    "posttest": "istanbul check-coverage"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org"
-  },
-  "author": "Amit Portnoy <amit.portnoy@gmail.com>",
-  "devDependencies": {
-    "istanbul": "^0.3.5",
-    "jscs": "^1.9.0",
-    "jshint": "^2.5.11",
-    "mocha": "^2.1.0",
-    "mockgoose": "^1.10.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:amitport/game-keep.git"
-  },
-  "bugs": {
-    "url": "https://github.com/amitport/game-keep/issues"
-  },
-  "peerDependencies": {
-    "mongoose": "^3.8.21"
-  },
-  "dependencies": {},
-  "keywords": [
-    "game server"
-  ]
+	"name": "game-keep",
+	"description": "Persistence and basic controllers for game servers",
+	"version": "0.0.1",
+	"scripts": {
+		"lint": "jshint .",
+		"checkStyle": "jscs .",
+		"pretest": "npm run-script lint && npm run-script checkStyle",
+		"test": "istanbul cover ./node_modules/mocha/bin/_mocha -- test",
+		"posttest": "istanbul check-coverage"
+	},
+	"publishConfig": {
+		"registry": "http://registry.npmjs.org"
+	},
+	"author": "Amit Portnoy <amit.portnoy@gmail.com>",
+	"devDependencies": {
+		"istanbul": "^0.3.5",
+		"jscs": "^1.9.0",
+		"jshint": "^2.5.11",
+		"mocha": "^2.1.0",
+		"mockgoose": "^1.10.7",
+		"mongoose": "^3.8.21"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:amitport/game-keep.git"
+	},
+	"bugs": {
+		"url": "https://github.com/amitport/game-keep/issues"
+	},
+	"peerDependencies": {
+		"mongoose": "^3.8.0"
+	},
+	"dependencies": {},
+	"keywords": [
+		"game server"
+	]
 }
